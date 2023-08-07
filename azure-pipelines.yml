@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: myTest-mytest
+  name: default
   demands:
   - Agent.Name -equals sh-agent
 
